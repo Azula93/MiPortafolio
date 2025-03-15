@@ -1,6 +1,6 @@
 import React from "react";
 import fitdataImg from "../../assets/fitdataImg.webp";
-import aluraImg from "../../assets/muñeco.png";
+import aluraImg from "../../assets/Muñeco.png";
 import interactiveImg from "../../assets/interactiveImg.png";
 import styles from "./ProjectsStyles.module.css";
 import ProjectCard from "../../common/ProjectCard";
