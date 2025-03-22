@@ -26,7 +26,7 @@ function Projects() {
 
         <ProjectCard
           src={interactiveImg}
-          link={"github.com/Azula93/interactive-rating-component-main"}
+          link={"https://interactive-rating-component-main-azu.netlify.app/"}
           title="Interactive Rating Component"
           paragraph="Rate your experience with a product or service."
         />
