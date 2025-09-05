@@ -17,6 +17,13 @@ function Projects() {
           paragraph=" track your fitness progress."
         />
 
+          <ProjectCard
+          src={interactiveImg}
+          link={"kodiquett.com"}
+          title="Kodiquett"
+          paragraph="Rate your experience with a product or service."
+        />
+
         <ProjectCard
           src={aluraImg}
           link={"https://github.com/Azula93/Challenge-Alura"}
@@ -24,12 +31,7 @@ function Projects() {
           paragraph="Encryption and decryption system."
         />
 
-        <ProjectCard
-          src={interactiveImg}
-          link={"https://interactive-rating-component-main-azu.netlify.app/"}
-          title="Interactive Rating Component"
-          paragraph="Rate your experience with a product or service."
-        />
+      
 
         {/* <ProjectCard
           src={ReactCard}
