@@ -1,7 +1,7 @@
 import React from "react";
 import fitdataImg from "../../assets/fitdataImg.webp";
 import aluraImg from "../../assets/Muñeco.png";
-import interactiveImg from "../../assets/interactiveImg.png";
+import kodiquettImg from "../../assets/logoKodiquett.png";
 import styles from "./ProjectsStyles.module.css";
 import ProjectCard from "../../common/ProjectCard";
 
@@ -18,8 +18,8 @@ function Projects() {
         />
 
           <ProjectCard
-          src={interactiveImg}
-          link={"kodiquett.com"}
+          src={kodiquettImg}
+          link={"https://kodiquett.com"}
           title="Kodiquett"
           paragraph="The digital solution you need."
         />
