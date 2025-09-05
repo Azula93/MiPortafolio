@@ -21,7 +21,7 @@ function Projects() {
           src={interactiveImg}
           link={"kodiquett.com"}
           title="Kodiquett"
-          paragraph="Rate your experience with a product or service."
+          paragraph="The digital solution you need."
         />
 
         <ProjectCard
