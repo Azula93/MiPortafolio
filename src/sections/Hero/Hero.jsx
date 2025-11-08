@@ -1,12 +1,12 @@
 import styles from "./HeroStyles.module.css";
-import heroImage from "../../assets/profile-picture-2.png";
+import heroImage from "../../assets/profile-picture-2.jpeg";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import githubIconLigth from "../../assets/github-light.svg";
 import linkedinIconLigth from "../../assets/linkedin-light.svg";
 import githubIconDark from "../../assets/github-dark.svg";
 import linkedinIconDark from "../../assets/linkedin-dark.svg";
-import cv from "../../assets/SILVIA-RIQUETT.pdf";
+import cv from "../../assets/SilviaRiquett.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
