@@ -14,22 +14,30 @@ function Skills() {
     <section id='skills' className={styles.container}>
         <h1 className='sectionTitle'>Skills</h1>
         <div className={styles.skillList}>
-            <SkillList src={checkmarkIcon} skill= "HTML"/>
-            <SkillList src={checkmarkIcon} skill= "CSS"/>
-            <SkillList src={checkmarkIcon} skill= "Javascript"/>
-            <SkillList src={checkmarkIcon} skill= "Node"/>
+          <SkillList src={checkmarkIcon} skill="JavaScript (ES6+)"/>
+          <SkillList src={checkmarkIcon} skill="PHP"/>
+          <SkillList src={checkmarkIcon} skill="SQL (MySQL)"/>
+          <SkillList src={checkmarkIcon} skill="HTML5 / CSS3"/>
         </div>
 
         <hr />
 
         <div className={styles.skillList}>
-            <SkillList src={checkmarkIcon} skill= "React"/>
-            <SkillList src={checkmarkIcon} skill= "Bootstrap"/>
-            <SkillList src={checkmarkIcon} skill= "Git"/>
-            <SkillList src={checkmarkIcon} skill= "SQL"/>
-
-            
+          <SkillList src={checkmarkIcon} skill="Angular"/>
+          <SkillList src={checkmarkIcon} skill="Laravel"/>
+          <SkillList src={checkmarkIcon} skill="React"/>
+          <SkillList src={checkmarkIcon} skill="Bootstrap"/>
         </div>
+
+        <hr />
+
+        <div className={styles.skillList}>
+          <SkillList src={checkmarkIcon} skill="Web Security (API Masking)"/>
+          <SkillList src={checkmarkIcon} skill="VPS Hardening & Linux"/>
+          <SkillList src={checkmarkIcon} skill="Git & GitHub"/>
+          <SkillList src={checkmarkIcon} skill="RESTful API Design"/>
+        </div>
+
     </section>
   )
 }

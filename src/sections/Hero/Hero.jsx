@@ -46,8 +46,9 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-        I transform ideas 🧠 into impactful digital experiences by combining creativity and performance 🚀 to take each project to the next level 🔝.
+          My approach combines the agility of modern frameworks with a security-first mindset, ensuring reliable production environments.
         </p>
+        <br />
         <a href={cv} target="blank" download>
           <button className="hover">Resume</button>
         </a>

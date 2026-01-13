@@ -1,6 +1,6 @@
 import React from "react";
 import fitdataImg from "../../assets/fitdataImg.webp";
-import aluraImg from "../../assets/Muñeco.png";
+import travelappImg from "../../assets/travelappLogo.png";
 import kodiquettImg from "../../assets/logoKodiquett.png";
 import styles from "./ProjectsStyles.module.css";
 import ProjectCard from "../../common/ProjectCard";
@@ -25,9 +25,9 @@ function Projects() {
         />
 
         <ProjectCard
-          src={aluraImg}
-          link={"https://github.com/Azula93/Challenge-Alura"}
-          title="Alura Challenge"
+          src={travelappImg}
+          link={"https://travelapp.kodiquett.com"}
+          title="TravelApp"
           paragraph="Encryption and decryption system."
         />
 
