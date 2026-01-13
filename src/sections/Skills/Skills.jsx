@@ -12,6 +12,7 @@ function Skills() {
 
   return (
     <section id='skills' className={styles.container}>
+      <hr  className={styles.separator}/>
         <h1 className='sectionTitle'>Skills</h1>
         <div className={styles.skillList}>
           <SkillList src={checkmarkIcon} skill="JavaScript (ES6+)"/>

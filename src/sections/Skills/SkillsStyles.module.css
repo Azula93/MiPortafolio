@@ -42,6 +42,20 @@ hr{
     margin: 30px auto;
 }
 
+
+.separator {
+    display: block; /* Asegura que se comporte como bloque */
+    width: 60%;
+    max-width: 400px;
+    height: 1px; /* La altura debe existir */
+    /* CAMBIO CLAVE: Usa 'background-image' o asegúrate de que el gradiente sea visible */
+    background: linear-gradient(90deg, transparent, var(--text-color), transparent) !important;
+    opacity: 0.5; /* Subimos un poco la opacidad para que no sea invisible */
+    margin: 40px auto;
+    border: none;
+    outline: none;;
+}
+
 @media (width >=800px){
     .skillList{
         max-width: fit-content;

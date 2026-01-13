@@ -6,6 +6,7 @@ function Contact() {
 
   return (
     <section id='contact' className={styles.container}>
+        <hr  className={styles.separator}/>
         <h1 className='sectionTitle'>Contact</h1>
 
         <form action="https://formspree.io/f/xoveqgqr" method='post'>
