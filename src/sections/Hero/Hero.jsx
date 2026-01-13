@@ -32,7 +32,7 @@ function Hero() {
         <h1>
           Silvia <br /> Riquett
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Fullstack Developer | Cybersecurity & Infrastructure</h2>
         <span>
           <a href="https://github.com/Azula93" target="blank">
             <img src={githubIcon} alt="github icon" />
